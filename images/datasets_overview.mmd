@@ -1,0 +1,44 @@
+graph TD
+    A["<b>Legal AI Datasets & Benchmarks</b>"] --> B["Pretraining<br/>Corpora"]
+    A --> C["Task-Specific<br/>Datasets"]
+    A --> D["Evaluation<br/>Benchmarks"]
+
+    B --> B1["Pile of Law<br/><i>256GB, EN</i>"]
+    B --> B2["MultiLegalPile<br/><i>689GB, 24 langs</i>"]
+    B --> B3["LeXFiles<br/><i>19B tokens, 6 sys</i>"]
+    B --> B4["CourtListener<br/><i>9M+ opinions</i>"]
+    B --> B5["CAP<br/><i>6.9M cases</i>"]
+
+    C --> C1["Judgment<br/>Prediction"]
+    C --> C2["Case<br/>Retrieval"]
+    C --> C3["Question<br/>Answering"]
+    C --> C4["Summarization"]
+    C --> C5["Classification"]
+    C --> C6["Contract<br/>Analysis"]
+
+    C1 --> C1a["CAIL2018<br/><i>2.6M cases</i>"]
+    C1 --> C1b["ECtHR<br/><i>11K cases</i>"]
+    C1 --> C1c["ILDC<br/><i>34K cases</i>"]
+
+    C2 --> C2a["LeCaRD<br/><i>10.7K cases</i>"]
+    C2 --> C2b["COLIEE<br/><i>EN/JA</i>"]
+
+    C3 --> C3a["JEC-QA<br/><i>26K questions</i>"]
+    C3 --> C3b["CaseHOLD<br/><i>53K QA</i>"]
+
+    C4 --> C4a["BillSum<br/><i>22K bills</i>"]
+    C4 --> C4b["Multi-LexSum<br/><i>9.3K summaries</i>"]
+
+    C5 --> C5a["CUAD<br/><i>510 contracts</i>"]
+    C5 --> C5b["LEDGAR<br/><i>60K provisions</i>"]
+
+    D --> D1["LegalBench<br/><i>162 tasks</i>"]
+    D --> D2["LawBench<br/><i>20 tasks, ZH</i>"]
+    D --> D3["LexGLUE<br/><i>7 tasks</i>"]
+    D --> D4["SafeLawBench"]
+    D --> D5["LegalAgentBench"]
+
+    style A fill:#1a73e8,stroke:#1a73e8,color:#fff
+    style B fill:#e65100,stroke:#e65100,color:#fff
+    style C fill:#2e7d32,stroke:#2e7d32,color:#fff
+    style D fill:#6a1b9a,stroke:#6a1b9a,color:#fff

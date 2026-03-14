@@ -1,0 +1,50 @@
+flowchart LR
+    subgraph Input["📥 Input"]
+        A1["Legal Query"]
+        A2["Case Documents"]
+        A3["Statutes & Regulations"]
+    end
+
+    subgraph Agent["🤖 Law Agent Core"]
+        B1["LLM Backbone<br/><i>SaulLM, ChatLaw,<br/>LawGPT, GPT-4</i>"]
+        B2["Reasoning Engine<br/><i>CoT, Legal Syllogism,<br/>Multi-step Reasoning</i>"]
+        B3["Tool Use & RAG<br/><i>Retrieval, KG Query,<br/>Citation Verification</i>"]
+    end
+
+    subgraph Tasks["⚖️ Legal Tasks"]
+        C1["🔍 Legal Research<br/>& Case Retrieval"]
+        C2["📊 Judgment<br/>Prediction"]
+        C3["📝 Contract<br/>Drafting & Review"]
+        C4["✅ Compliance<br/>Checking"]
+        C5["🗣️ Courtroom<br/>Simulation"]
+        C6["📋 Document<br/>Summarization"]
+    end
+
+    subgraph Output["📤 Output"]
+        D1["Legal Opinions"]
+        D2["Risk Assessment"]
+        D3["Draft Documents"]
+    end
+
+    A1 --> B1
+    A2 --> B1
+    A3 --> B1
+    B1 --> B2
+    B2 --> B3
+    B3 --> C1
+    B3 --> C2
+    B3 --> C3
+    B3 --> C4
+    B3 --> C5
+    B3 --> C6
+    C1 --> D1
+    C2 --> D2
+    C3 --> D3
+    C4 --> D1
+    C5 --> D2
+    C6 --> D3
+
+    style Input fill:#e3f2fd,stroke:#1565c0,color:#000
+    style Agent fill:#fff3e0,stroke:#e65100,color:#000
+    style Tasks fill:#e8f5e9,stroke:#2e7d32,color:#000
+    style Output fill:#f3e5f5,stroke:#6a1b9a,color:#000
