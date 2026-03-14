@@ -17,3 +17,5 @@ Thumbs.db
 # Temporary files
 *.tmp
 *.bak
+visuals_project/
+slide_content.md
