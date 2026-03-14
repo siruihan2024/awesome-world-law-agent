@@ -27,6 +27,7 @@ Contributions are welcome! Please feel free to submit pull requests or reach out
 - [Workflow Automation & E-Discovery](#workflow-automation--e-discovery)
 - [Benchmarks & Evaluation](#benchmarks--evaluation)
 - [Ethics, Fairness, and Bias](#ethics-fairness-and-bias)
+- [Related Agentic AI Research](#related-agentic-ai-research)
 - [Tools & Commercial Products](#tools--commercial-products)
 - [Datasets & Corpora](#datasets--corpora)
 - [Other Awesome Lists](#other-awesome-lists)
@@ -35,6 +36,7 @@ Contributions are welcome! Please feel free to submit pull requests or reach out
 
 ## Surveys and Overviews
 
+- **Trustworthy Legal Reasoning: A Comprehensive Survey**, Preprints 2026. [[Paper](https://www.preprints.org/manuscript/202602.0870/v1)]
 - **LLM Agents in Law: Taxonomy, Applications, and Challenges**, arXiv 2026. [[Paper](https://arxiv.org/abs/2601.06216)]
 - **Large Language Models in Legal Systems: A Survey**, Nature 2025. [[Paper](https://www.nature.com/articles/s41599-025-05924-3)]
 - **A survey of large language models for legal tasks**, ScienceDirect 2026. [[Paper](https://www.sciencedirect.com/science/article/abs/pii/S1574013726000158)]
@@ -56,6 +58,9 @@ Contributions are welcome! Please feel free to submit pull requests or reach out
 
 ### Legal Reasoning & Theory
 
+- **LRAS: Advanced Legal Reasoning with Agentic Search**, arXiv 2026. [[Paper](https://arxiv.org/abs/2601.07296)]
+- **L-MARS: Legal Multi-Agent Workflow with Orchestrated Reasoning and Agentic Search**, arXiv 2025. [[Paper](https://arxiv.org/abs/2509.00761)]
+- **LegalΔ: Enhancing Legal Reasoning in LLMs via Reinforcement Learning**, arXiv 2025. [[Paper](https://arxiv.org/abs/2508.12281)]
 - **LLMs for legal reasoning: A unified framework and future directions**, Information Fusion 2025. [[Paper](https://www.sciencedirect.com/science/article/pii/S2212473X25000380)]
 - **Reasoning, tool calling, and agentic systems in legal LLMs**, Thomson Reuters 2025. [[Blog](https://legal.thomsonreuters.com/blog/reasoning-tool-calling-and-agentic-systems-in-legal-llms/)]
 - **Legal 3Agent — a multiagent approach to legal reasoning**, Medium. [[Blog](https://medium.com/mitb-for-all/legal-3agent-a-multiagent-approach-to-legal-reasoning-6961105fcee8)]
@@ -79,6 +84,7 @@ Contributions are welcome! Please feel free to submit pull requests or reach out
 
 ### Judgment Prediction
 
+- **GLARE: Agentic Reasoning for Legal Judgment Prediction**, arXiv 2025. [[Paper](https://arxiv.org/abs/2508.16383)]
 - **AI on Trial: Legal Models Hallucinate in 1 out of 6 (or More) Benchmarking Queries**, Stanford HAI 2024. [[Article](https://hai.stanford.edu/news/ai-trial-legal-models-hallucinate-1-out-6-or-more-benchmarking-queries)]
 - **Precedent-Enhanced Legal Judgment Prediction with LLM and Domain-Model Collaboration**, EMNLP 2023. [[Paper](https://aclanthology.org/2023.emnlp-main.740/)]
 - **AgentsBench: A Multi-Agent LLM Simulation Framework for Legal Judgment Prediction**, MDPI 2025. [[Paper](https://www.mdpi.com/2079-8954/13/8/641)]
@@ -144,6 +150,12 @@ Contributions are welcome! Please feel free to submit pull requests or reach out
 - **Simulated Justice: How AI Alignment Replaces Conflict with Coherence**, IHRLR 2026. [[Paper](https://heinonline.org/HOL/LandingPage?handle=hein.journals/ihrlr20&div=1&id=&page=)]
 - **When AI Sounds Judicious: How AI Alignment Mimic Procedure While Evading Accountability**, UCLA JLT 2026. [[Paper](https://www.law.ucla.edu/publications/ucla-journal-law-technology/volume-29-no-1-fall-2025/when-ai-sounds-judicious)]
 - **PKU-SafeRLHF: Towards Multi-Level Safety Alignment for LLMs**, ACL 2025. [[Paper](https://aclanthology.org/2025.acl-long.119/)]
+
+## Related Agentic AI Research
+
+- **Benchmarking Multi-National Value Alignment for Large Language Models**, ACL 2025. [[Paper](https://aclanthology.org/2025.acl-long.131/)]
+- **Safe RLHF-V: Safe Reinforcement Learning from Human Feedback in Multimodal Large Language Models**, NeurIPS 2025. [[Paper](https://openreview.net/forum?id=9tN05x2a5f)]
+- **Mitigating Deceptive Alignment via Self-Monitoring**, arXiv 2025. [[Paper](https://arxiv.org/abs/2507.09348)]
 
 ## Tools & Commercial Products
 
